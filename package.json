@@ -1,0 +1,97 @@
+{
+  "name": "spill-anon-apps",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "BOILERPLATE REACT v18",
+    "REACT v18 + LESS STYLES v4",
+    "REACT v18 + REDUX v4",
+    "REACT v18 + ANTD v4",
+    "REACT v18 + TAILWIND v3",
+    "REACT v18 + WEBPACK v5 + BABEL v7",
+    "REACT + WEBPACK + BABEL"
+  ],
+  "author": "KILLYOUGUTSXXX",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@reduxjs/toolkit": "^1.8.6",
+    "antd": "^4.23.6",
+    "history": "^4.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@webpack-cli/serve": "^1.6.0",
+    "autoprefixer": "^10.4.13",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-import": "^1.12.2",
+    "css-loader": "^6.7.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^4.5.2",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "less-vars-to-js": "^1.3.0",
+    "react-error-overlay": "^6.0.9",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "web-vitals": "^2.1.4",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "scripts": {
+    "wp:build": "rm -rf ./dist && BABEL_ENV=node webpack --config ./webpack.config.js",
+    "wp:dev": "webpack-dev-server --config ./webpack.config.js",
+    "start": "serve -s ./dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

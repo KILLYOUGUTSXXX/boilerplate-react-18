@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "useBuiltIns": false,
+      "bugfixes": true,
+      "modules": "auto"
+    }],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-modules-commonjs",
+    "@babel/plugin-proposal-class-properties",
+    "babel-plugin-add-module-exports",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-runtime",
+    ["import", { "libraryName": "antd", "style": "less" }, "antd"]
+  ]
+}
